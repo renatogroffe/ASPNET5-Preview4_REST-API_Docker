@@ -2,7 +2,6 @@ FROM mcr.microsoft.com/dotnet/sdk:5.0-alpine AS build-env
 WORKDIR /app
 
 #Exibir a versão do .NET
-RUN echo "Versão do .NET:"
 RUN dotnet --version
 
 # Copiar csproj e restaurar dependencias
