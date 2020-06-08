@@ -22,7 +22,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Acessando o diretório ./APIContagem
-      run: cd ./APIContagem
+      run: cd APIContagem
 
     - name: Build e Push no Docker Hub
       run: |
